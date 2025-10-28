@@ -3,7 +3,7 @@ module github.com/gigvault/cli
 go 1.23
 
 require (
-	github.com/gigvault/shared v1.0.0
+	github.com/gigvault/shared v1.1.0
 	github.com/spf13/cobra v1.8.0
 )
 
