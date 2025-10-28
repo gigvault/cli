@@ -1,6 +1,6 @@
 module github.com/gigvault/cli
 
-go 1.24.0
+go 1.23
 
 require (
 	github.com/gigvault/shared v1.0.0
@@ -12,4 +12,5 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 )
 
-replace github.com/gigvault/shared => ../shared
+// Uncomment for local development:
+// replace github.com/gigvault/shared => ../shared
